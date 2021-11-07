@@ -7,3 +7,4 @@ def getAppleQuantityMoneyLeft():
     _money = int(input("Enter the amount of money: "))
     _apple = int(input("Enter the price of an apple: "))
     _appleQuantity = _money // _apple
+    _applePrice = _appleQuantity * _apple
