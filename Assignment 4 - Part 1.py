@@ -7,3 +7,7 @@ def getNameAgeAddress():
     _age = int(input("Enter your age: "))
     _address = input("Enter your address: ")
     return _name, _age, _address
+
+# Steps
+# 1. Ask for name, age, and address.
+name, age, address = getNameAgeAddress
