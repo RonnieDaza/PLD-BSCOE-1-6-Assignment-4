@@ -8,3 +8,4 @@ def getTotal():
     _orangeQuestion = int(input("How many oranges you want to buy? "))
     _applePrice = 20
     _orangePrice = 25
+    _appleTotal = _appleQuestion * _applePrice
