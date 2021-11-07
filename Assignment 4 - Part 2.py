@@ -12,3 +12,7 @@ def getTotal():
     _orangeTotal = _orangeQuestion * _orangePrice
     _total = _appleTotal * _orangeTotal
     return _appleQuestion, _orangeQuestion, _applePrice, _orangePrice, _appleTotal, _orangeTotal, _total
+
+# Steps
+# 1. Ask how many apples you want to buy and oranges you want to buy.
+total = getTotal()
