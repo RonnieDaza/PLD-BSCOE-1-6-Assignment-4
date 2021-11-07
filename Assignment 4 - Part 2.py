@@ -13,6 +13,9 @@ def getTotal():
     _total = _appleTotal * _orangeTotal
     return _appleQuestion, _orangeQuestion, _applePrice, _orangePrice, _appleTotal, _orangeTotal, _total
 
+def display(totalF):
+    print(f"The total amount is {totalF}.")
+
 # Steps
 # 1. Ask how many apples you want to buy and oranges you want to buy.
 total = getTotal()
