@@ -5,3 +5,4 @@
 
 def getTotal():
     _appleQuestion = int(input("How many apples you want to buy? "))
+    _orangeQuestion = int(input("How many oranges you want to buy? "))
