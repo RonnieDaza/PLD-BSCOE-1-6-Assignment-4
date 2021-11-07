@@ -10,3 +10,7 @@ def getAppleQuantityMoneyLeft():
     _applePrice = _appleQuantity * _apple
     _moneyLeft = _money - _applePrice
     return _moneyLeft
+
+# Steps
+# 1. Ask for the amount of money the user have and the price of an apple.
+appleQuantity, moneyLeft = getAppleQuantityMoneyLeft()
