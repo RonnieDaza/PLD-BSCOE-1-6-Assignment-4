@@ -9,7 +9,7 @@ def getAppleQuantityMoneyLeft():
     _appleQuantity = _money // _apple
     _applePrice = _appleQuantity * _apple
     _moneyLeft = _money - _applePrice
-    return _moneyLeft
+    return _appleQuantity, _moneyLeft
 
 def display(appleQuantityF, moneyLeftF):
     print(f"You can buy {appleQuantityF} apples and your change is {moneyLeftF} pesos.")
