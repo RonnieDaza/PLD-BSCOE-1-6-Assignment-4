@@ -9,3 +9,4 @@ def getAppleQuantityMoneyLeft():
     _appleQuantity = _money // _apple
     _applePrice = _appleQuantity * _apple
     _moneyLeft = _money - _applePrice
+    return _moneyLeft
