@@ -11,3 +11,4 @@ def getTotal():
     _appleTotal = _appleQuestion * _applePrice
     _orangeTotal = _orangeQuestion * _orangePrice
     _total = _appleTotal * _orangeTotal
+    return _appleQuestion, _orangeQuestion, _applePrice, _orangePrice, _appleTotal, _orangeTotal, _total
