@@ -10,3 +10,4 @@ def getTotal():
     _orangePrice = 25
     _appleTotal = _appleQuestion * _applePrice
     _orangeTotal = _orangeQuestion * _orangePrice
+    _total = _appleTotal * _orangeTotal
