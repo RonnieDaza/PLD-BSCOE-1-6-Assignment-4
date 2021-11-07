@@ -13,6 +13,6 @@ def display(nameF, ageF, addressF):
 
 # Steps
 # 1. Ask for name, age, and address.
-name, age, address = getNameAgeAddress
+name, age, address = getNameAgeAddress()
 # 2. Display the output.
 display(name, age, address)
