@@ -19,3 +19,5 @@ def display(totalF):
 # Steps
 # 1. Ask how many apples you want to buy and oranges you want to buy.
 total = getTotal()
+# 2. Display the output.
+display(total)
