@@ -10,8 +10,8 @@ def getTotal():
     _orangePrice = 25
     _appleTotal = _appleQuestion * _applePrice
     _orangeTotal = _orangeQuestion * _orangePrice
-    _total = _appleTotal * _orangeTotal
-    return _appleQuestion, _orangeQuestion, _applePrice, _orangePrice, _appleTotal, _orangeTotal, _total
+    _total = _appleTotal + _orangeTotal
+    return _total
 
 def display(totalF):
     print(f"The total amount is {totalF}.")
