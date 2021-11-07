@@ -17,3 +17,5 @@ def display(appleQuantityF, moneyLeftF):
 # Steps
 # 1. Ask for the amount of money the user have and the price of an apple.
 appleQuantity, moneyLeft = getAppleQuantityMoneyLeft()
+# 2. Display the output.
+display(appleQuantity, moneyLeft)
