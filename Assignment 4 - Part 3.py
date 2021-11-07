@@ -12,7 +12,7 @@ def getAppleQuantityMoneyLeft():
     return _moneyLeft
 
 def display(appleQuantityF, moneyLeftF):
-    print(f"You can buy {appleQuantityf} apples and your change is {moneyLeftF} pesos.")
+    print(f"You can buy {appleQuantityF} apples and your change is {moneyLeftF} pesos.")
 
 # Steps
 # 1. Ask for the amount of money the user have and the price of an apple.
