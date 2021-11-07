@@ -8,6 +8,9 @@ def getNameAgeAddress():
     _address = input("Enter your address: ")
     return _name, _age, _address
 
+def display(nameF, ageF, addressF):
+    print(f"Hi, my name is {nameF}. I am {ageF} years old and I live in {addressF}.")
+
 # Steps
 # 1. Ask for name, age, and address.
 name, age, address = getNameAgeAddress
